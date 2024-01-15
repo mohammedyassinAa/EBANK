@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bankMangement</class>
+ <widget class="QDialog" name="bankMangement">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Acceuil</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="src.qrc">
+    <normaloff>:/images/ICON.png</normaloff>:/images/ICON.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#bankMangement{
+border-image:url(:/images/BG3.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>331</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+border-image:url(:/images/IMG.jpg);
+}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label{
+font-family:  fantasy; 
+color: white;
+font-size: 16px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Solde :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>50</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_2{
+font-family:  fantasy; 
+color: white;
+font-size: 16px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>250</y>
+     <width>111</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox{
+color: white ;
+text-align:center;
+}</string>
+   </property>
+   <property name="title">
+    <string>Depot</string>
+   </property>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="depot">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>80</y>
+      <width>41</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#depot{
+background-color: #D3D3D3;
+}</string>
+    </property>
+    <property name="text">
+     <string>OK</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>250</y>
+     <width>111</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox_2{
+color: white ;
+text-align:center;
+}</string>
+   </property>
+   <property name="title">
+    <string>Withdraw</string>
+   </property>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="retirer">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>80</y>
+      <width>41</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#retirer{
+background-color: #D3D3D3;
+}</string>
+    </property>
+    <property name="text">
+     <string>OK</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="supprimer">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>450</y>
+     <width>111</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#supprimer{
+
+background-color: #D3D3D3;
+}</string>
+   </property>
+   <property name="text">
+    <string>Supprimer compte</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sedeconnecter">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>490</y>
+     <width>111</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#sedeconnecter{
+background-color: #D3D3D3;
+}</string>
+   </property>
+   <property name="text">
+    <string>Se deconnecter</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections/>
+</ui>
